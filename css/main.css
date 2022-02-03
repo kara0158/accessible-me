@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: blanchedalmond;
   margin: 0;
   padding: 0;
+  color: #404040;
 }
 
 h1,
@@ -11,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-family: 'arial', 'Roboto', Helvetica, sans-serif;
 }
 
 .container {
@@ -69,3 +70,42 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+
+
+/* my css */
+
+.current {
+  background-color: brown;
+  color: white;
+}
+.site-header h1{
+  border-style:solid;
+}
+
+.site-header h1{
+  text-align: center;
+  padding: 50px;
+  font-weight: 2000;
+  
+}
+.main-content h1{
+  text-align: center;
+}
+
+.main-content p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: large;
+}
+
+.main-content .owner ul li{
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact-section form{
+  text-align: center;
+}
+
